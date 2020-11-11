@@ -1,24 +1,23 @@
 import './App.css';
-// import FunctionalComp from './Components/FunctionalComp';
-// import {ClassComp, ClassComp1} from './Components/ClassComp';
-// import Click from './Components/Click';
-// import Counter from './Components/Counter';
-// import ParentComp from './Components/ParentComp';
+import React, { Component } from 'react';
+import NewComp from './Components/NewComp';
 
-function App() {
-  return (
-    <div>
+export class App extends Component {
 
+  styles = {
+    fontStyle: "bold",
+    color: "teal"
+  };
 
-      
-      {/* <ParentComp />
-      <Counter />
-      <Click />
-      <FunctionalComp />
-      <ClassComp />
-      <ClassComp1 /> */}
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <h1 style={this.styles}>Welcome</h1>
+        <NewComp />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
+
