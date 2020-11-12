@@ -22,7 +22,7 @@ export class NewComp extends Component {
   
     this.state = {
        message: "Subscribe to School of Tao",
-       sub: "Subscribe",
+       sub: "Subscribe now!",
        imageURL: BellA
     }
   }
