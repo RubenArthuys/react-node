@@ -30,7 +30,7 @@ export class NewComp extends Component {
   imageChange=() => {
     this.setState({
       imageURL: BellB,
-      message: "THANKS!"
+      message: "THANKS! "
     })
   }
 
