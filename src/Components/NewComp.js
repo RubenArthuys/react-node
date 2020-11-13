@@ -21,8 +21,8 @@ export class NewComp extends Component {
     super(props)
   
     this.state = {
-       message: "Subscribe to School of Tao",
-       sub: "Subscribe now!",
+       message: "Subscribe to School of Tao ",
+       sub: "Subscribe now! ",
        imageURL: BellA
     }
   }
